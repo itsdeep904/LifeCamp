@@ -15,18 +15,11 @@ function App() {
       <div className="flex-grow">
       <Routes>
         <Route path='/' element={<Dashboard />} />
-      </Routes>
-      <Routes>
         <Route path='/ManageCamp' element={<ManageCamp />} />
-      </Routes>
-      <Routes>
         <Route path='/Dashboard' element={<Dashboard />} />
-      </Routes>
-      <Routes>
         <Route path='/CampDataTable' element={<CampDataTable />} />
-      </Routes>
-      <Routes>
         <Route path='/MessageChat' element={<MessageChat />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       </div>
       <Footer />
