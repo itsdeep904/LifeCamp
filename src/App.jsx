@@ -7,6 +7,7 @@ import ManageCamp from './pages/ManageCamp'
 import Dashboard from './pages/Dashboard'
 import CampDataTable from './pages/CampDataTable'
 import MessageChat from './pages/MessageChat'
+import PageNotFound from './pages/PageNotFound'
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
