@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .for_responsive {
+        margin-left: 0rem !important;
+    }
+    #sidebar_responsive {
+        z-index: 100 !important;
+    }
+}

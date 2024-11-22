@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+:root {
+    --global-theme-color: rgb(2 44 34 / var(--tw-bg-opacity, 1));
+    --Edit-color: #4ab5c7;
+    --error-color: #ff0000;
+}
