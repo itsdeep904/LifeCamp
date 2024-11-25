@@ -51,7 +51,7 @@ const Sidebar = () => {
     </li>
     <li className="ml-4 flex items-center">
       <FaSignOutAlt className="text-white" />
-      <Link to="/LogOut" className="text-white hover:bg-emerald-800 px-4 py-2 block rounded-md">Log Out</Link>
+      <Link to="/LoginForm" className="text-white hover:bg-emerald-800 px-4 py-2 block rounded-md">Log Out</Link>
     </li>
   </ul>
 </nav>
