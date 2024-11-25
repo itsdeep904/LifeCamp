@@ -95,8 +95,8 @@ const styles = {
         fontWeight: 'bold',
         whiteSpace: 'nowrap',
         overflow: 'hidden',
-        borderRight: '4px solid #fff',
-        animation: 'typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite',
+        // borderRight: '4px solid #fff',
+        // animation: 'typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite',
         marginBottom: '20px',
     },
     heading: {
