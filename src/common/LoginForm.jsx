@@ -25,7 +25,7 @@ const LoginForm = () => {
 
     return (
         <>
-             <ToastContainer autoClose={1000} />
+             <ToastContainer autoClose={1000}/>
             <div style={styles.container}>
                 <div style={styles.typewriter}>
                     Welcome to Life Camp

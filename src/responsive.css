@@ -6,3 +6,8 @@
         z-index: 100 !important;
     }
 }
+@media (min-width: 635px) and (max-width: 775px) {
+    .for_responsive {
+        margin-left: 12rem !important;
+    }
+}
