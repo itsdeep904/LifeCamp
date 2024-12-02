@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import MapSelector from "./MapSelector"; // Import MapSelector
-import axios from 'axios'; // Ensure axios is imported
-
+import MapSelector from "./MapSelector";
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 const ManageCamp = () => {
-  
+  const navigate = useNavigate();
+
   // const getCurrentLocation = () => {
   //   if (navigator.geolocation) {
   //     navigator.geolocation.getCurrentPosition(
@@ -77,6 +79,9 @@ const handleSubmit = async (e) => {
   e.preventDefault();
 
   const data = {
+    id: 0,
+    campImage: "1.png", 
+    userLoginId: 1, 
     campName: e.target.campName.value,
     phoneNumber: e.target.phoneNumber.value,
     email: e.target.email.value,
@@ -85,34 +90,35 @@ const handleSubmit = async (e) => {
     country: formData.country,
     city: formData.city,
     state: formData.state,
-    pincode: formData.pincode,
-    latitude: parseFloat(formData.latitude), // Ensure correct type
-    longitude: parseFloat(formData.longitude), // Ensure correct type
+    ZipCode: formData.pincode,
+    latitude: parseFloat(formData.latitude), 
+    longitude: parseFloat(formData.longitude), 
     description: e.target.Description.value,
     campType: e.target.campType.value,
-    organizedBy: e.target.OrganizedBy.value,
+    OrganizerId: e.target.OrganizedBy.value,
     startDate: e.target.startDate.value,
     endDate: e.target.endDate.value,
     startTime: e.target.startTime.value,
     endTime: e.target.endTime.value,
   };
+  
   try {
     await axios.post('https://localhost:7184/api/Camp/AddUpdateCamp', data, {
       headers: { 'Content-Type': 'application/json' },
     });
-     
-    alert('Camp details successfully added/updated!');
-    window.location.reload(); // Reload the page
+    toast.success('Camp Added successfully !');
+    setTimeout(() => {
+        navigate('/CampDataTable');
+    }, 1500);
   } catch (error) {
     console.error('Error submitting camp data:', error.response || error.message);
     alert('An error occurred while submitting camp data.');
   }
 };
-
-  
   
   return (
     <>
+       <ToastContainer autoClose={1000}/>
       <div className="p-4 for_responsive" style={{ marginLeft: "12rem" }}>
         <form className="mx-auto" style={{ maxWidth: "70rem" }} onSubmit={handleSubmit}>
           <h4
