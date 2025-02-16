@@ -11,3 +11,6 @@
         margin-left: 12rem !important;
     }
 }
+.for_responsive {
+    min-height: 80vh !important;
+}

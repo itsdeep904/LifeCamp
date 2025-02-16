@@ -2,11 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: black;
-}
+/* Global Theme Variables */
 :root {
-    --global-theme-color: rgb(2 44 34 / var(--tw-bg-opacity, 1));
-    --Edit-color: #4ab5c7;
-    --error-color: #ff0000;
+  --global-theme-color: rgb(2 44 34 / var(--tw-bg-opacity, 1));
+  --edit-color: #4ab5c7;
+  --error-color: #ff0000;
+
+  /* Light Mode Variables */
+  --background-color: #c7e5dc;
+  --text-color: var(--global-theme-color);
+  --background-center-color: var(--global-theme-color);
+  --icon-color: var(--global-theme-color);;
+  --hover-bg-color: var(--global-theme-color); 
+  --hover-text-color:#c7e5dc;
+  --hover-icon-color:#c7e5dc;
+}
+
+:root.dark {
+  /* Dark Mode Variables */
+  --background-color: var(--global-theme-color);
+  --text-color: #f8fafc;
+  --background-center-color: #000;
+  --icon-color: #f3f4f6;
+  --hover-bg-color:#c7e5dc;
+  --hover-text-color:var(--global-theme-color);
+  --hover-icon-color:var(--global-theme-color);
+}
+
+/* Apply Theme Globally */
+body {
+  background-color: var(--background-center-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure Tailwind Works with Dynamic Colors */
+.bg-custom {
+  background-color: var(--background-color);
+}
+
+.text-custom {
+  color: var(--text-color);
+}
+
+.hover-bg-custom:hover {
+  background-color: var(--hover-bg-color);
 }

@@ -1,20 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <>
-      <div className="bg-emerald-950 w-full  flex flex-col sm:flex-row items-center justify-center p-2" style={{ paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
-  <div className="flex flex-wrap gap-6 items-center justify-center sm:justify-start">
-    <h4 className="text-xl text-white">Privacy Policy</h4>
-    <h4 className="text-xl text-white">Terms of Service</h4>
-    <h4 className="text-xl text-white">FAQ</h4>
-    <h4 className="text-xl text-white">Support</h4>
-  </div>
-  <h2 className="text-dark font-bold mt-4 sm:mt-0 sm:ml-6">(© 2024 LifeCamp)</h2>
-</div>
+    <div
+      className="w-full flex flex-col sm:flex-row items-center justify-center p-2 bg-[var(--background-color)] text-[var(--text-color)] dark:[var(--background-color)] dark:text-gray-200"
+      style={{ paddingTop: '0.5rem', paddingBottom: '0.5rem' }}
+    >
+      <div className="flex flex-wrap gap-6 items-center justify-center sm:justify-start">
+        <h4 className="text-xl text-[var(--text-color)] dark:text-gray-200 cursor-pointer">Privacy Policy</h4>
+        <h4 className="text-xl text-[var(--text-color)] dark:text-gray-200 cursor-pointer">Terms of Service</h4>
+        <h4 className="text-xl text-[var(--text-color)] dark:text-gray-200 cursor-pointer">FAQ</h4>
+        <h4 className="text-xl text-[var(--text-color)] dark:text-gray-200 cursor-pointer">Support</h4>
+      </div>
+      <h2 className="font-bold mt-4 sm:mt-0 sm:ml-6 text-sm sm:text-lg text-[var(--text-color)] dark:text-gray-200">
+        (© 2024 LifeCamp)
+      </h2>
+    </div>
+  );
+};
 
-    </>
-  )
-}
-
-export default Footer
+export default Footer;
