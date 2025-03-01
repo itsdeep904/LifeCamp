@@ -156,7 +156,7 @@ const ManageCamp = ({ addUpdate }) => {
       >
         <form
           className="mx-auto"
-          style={{ maxWidth: "70rem" }}
+          // style={{ maxWidth: "70rem" }}
           onSubmit={handleSubmit}
         >
           <h4

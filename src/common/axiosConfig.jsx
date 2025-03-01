@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
 const axiosInstance = axios.create({
-  baseURL: "https://localhost:7184/api", 
+  baseURL: "https://localhost:44387/api", 
 });
 
 axiosInstance.interceptors.request.use(

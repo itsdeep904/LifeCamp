@@ -57,7 +57,7 @@ const Setting = (addUpdate) => {
     try {
       // pending
       const res = await axiosInstance.post(
-        "https://localhost:7184/api/User/AddUpdateUser",
+        "https://localhost:44387/api/User/AddUpdateUser",
         data,
         {
           headers: { "Content-Type": "application/json" },
@@ -85,7 +85,7 @@ const Setting = (addUpdate) => {
   const handleGetData = async (id) => {
     try {
       const response = await axiosInstance.get(
-        `https://localhost:7184/api/Camp/GetCampById/${id}`
+        `https://localhost:44387/api/Camp/GetCampById/${id}`
       );
       const camp = response.data;
 
@@ -125,7 +125,7 @@ const Setting = (addUpdate) => {
       >
         <form
           className="mx-auto"
-          style={{ maxWidth: "70rem" }}
+          // style={{ maxWidth: "70rem" }}
           onSubmit={handleSubmit}
         >
           <h4

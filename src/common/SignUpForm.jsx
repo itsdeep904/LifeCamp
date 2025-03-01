@@ -35,8 +35,8 @@ const SignUpForm = () => {
     try {
         
         const url = formData.roleType == 1 
-        ? "https://localhost:7184/api/Auth/AddUpdateAdmin" 
-        : "https://localhost:7184/api/Auth/AddUpdateUser";
+        ? "https://localhost:44387/api/Auth/AddUpdateAdmin" 
+        : "https://localhost:44387/api/Auth/AddUpdateUser";
       
       const response = await axios.post(
         url,

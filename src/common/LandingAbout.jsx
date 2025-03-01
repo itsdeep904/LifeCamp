@@ -1,0 +1,57 @@
+import React from 'react';
+
+const LandingAbout = () => {
+  return (
+    <section id="about" className="bg-[var(--background-center-color)] text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
+          <div className="w-20 h-1 bg-[var(--hover-text-color)] mx-auto"></div>
+        </div>
+        
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <img 
+              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+              alt="Modern eco-friendly office" 
+              className="rounded-lg shadow-xl w-full h-auto"
+            />
+          </div>
+          
+          <div>
+            <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
+            <p className="mb-6">
+              Founded in 2020, EcoTech is dedicated to developing sustainable solutions that help businesses and individuals reduce their environmental footprint while maintaining productivity and comfort.
+            </p>
+            
+            <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
+            <p className="mb-6">
+              We envision a world where technology and sustainability go hand in hand, creating a healthier planet for future generations without sacrificing modern conveniences.
+            </p>
+            
+            <div className="grid grid-cols-2 gap-4 mt-8">
+              <div className="text-center">
+                <h4 className="text-4xl font-bold">500+</h4>
+                <p className="mt-2">Projects Completed</p>
+              </div>
+              <div className="text-center">
+                <h4 className="text-4xl font-bold">50+</h4>
+                <p className="mt-2">Team Members</p>
+              </div>
+              <div className="text-center">
+                <h4 className="text-4xl font-bold">30+</h4>
+                <p className="mt-2">Countries Served</p>
+              </div>
+              <div className="text-center">
+                <h4 className="text-4xl font-bold">95%</h4>
+                <p className="mt-2">Client Satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default LandingAbout;
