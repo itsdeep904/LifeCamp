@@ -9,7 +9,7 @@ const LandingFooter =() => {
           <div>
             <h3 className="text-xl font-bold mb-4">LifeCamp</h3>
             <p className="mb-4">
-              Providing sustainable solutions for a better tomorrow. We're committed to helping businesses and individuals reduce their environmental impact.
+            Connecting communities to life-saving camps. We help organizers set up blood donation, organ donation, and vaccination camps while making it easy for users to find and navigate to them.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-[var(--edit-color)] transition-colors" aria-label="Facebook">

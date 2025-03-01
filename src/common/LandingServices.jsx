@@ -54,7 +54,7 @@ const LandingServices = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Services</h2>
           <div className="w-20 h-1 bg-white mx-auto"></div>
           <p className="mt-4 text-lg max-w-3xl mx-auto text-white">
-            We offer a comprehensive range of sustainable solutions to help you reduce your environmental impact.
+          We provide a seamless platform for organizing and discovering life-saving camps, including blood donation, organ donation, and vaccination camps, ensuring accessibility for everyone in need.
           </p>
         </div>
         

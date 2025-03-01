@@ -21,12 +21,12 @@ const LandingAbout = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
             <p className="mb-6">
-              Founded in 2020, EcoTech is dedicated to developing sustainable solutions that help businesses and individuals reduce their environmental footprint while maintaining productivity and comfort.
+            Founded in 2025, LifeCamp is dedicated to helping organizations set up life-saving camps, including blood donation, organ donation, and polio vaccination camps. Our platform enables users to easily find nearby camps and navigate to them using Google Maps. 
             </p>
             
             <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
             <p className="mb-6">
-              We envision a world where technology and sustainability go hand in hand, creating a healthier planet for future generations without sacrificing modern conveniences.
+              We envision a world where technology bridges the gap between communities and life-saving initiatives, ensuring that essential medical camps are easily accessible to everyone in need.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8">

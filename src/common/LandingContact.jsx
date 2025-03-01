@@ -9,7 +9,7 @@ const LandingContact = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
           <div className="w-20 h-1 bg-[var(--hover-text-color)] mx-auto"></div>
           <p className="mt-4 text-lg max-w-3xl mx-auto">
-            Have questions or ready to start your journey towards sustainability? Get in touch with our team.
+          Have questions or want to organize or find a life-saving camp? Get in touch with our team—we're here to help!
           </p>
         </div>
         
