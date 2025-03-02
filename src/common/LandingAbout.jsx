@@ -31,16 +31,16 @@ const LandingAbout = () => {
             
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="text-center">
-                <h4 className="text-4xl font-bold">500+</h4>
-                <p className="mt-2">Projects Completed</p>
-              </div>
-              <div className="text-center">
                 <h4 className="text-4xl font-bold">50+</h4>
-                <p className="mt-2">Team Members</p>
+                <p className="mt-2">Hospitals</p>
               </div>
               <div className="text-center">
-                <h4 className="text-4xl font-bold">30+</h4>
-                <p className="mt-2">Countries Served</p>
+                <h4 className="text-4xl font-bold">500+</h4>
+                <p className="mt-2">Happy Users</p>
+              </div>
+              <div className="text-center">
+                <h4 className="text-4xl font-bold">10+</h4>
+                <p className="mt-2">Team Members</p>
               </div>
               <div className="text-center">
                 <h4 className="text-4xl font-bold">95%</h4>

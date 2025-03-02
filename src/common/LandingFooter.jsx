@@ -43,11 +43,11 @@ const LandingFooter =() => {
           <div>
             <h3 className="text-xl font-bold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Sustainable Energy</a></li>
-              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Water Conservation</a></li>
-              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Green Building</a></li>
-              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Waste Management</a></li>
-              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Clean Air Technology</a></li>
+              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Free Camps</a></li>
+              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Home Service</a></li>
+              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Chat With Organizer</a></li>
+              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Online Slot Booking</a></li>
+              <li><a href="#" className="hover:text-[var(--edit-color)] transition-colors">Real-Time Camp Location</a></li>
             </ul>
           </div>
           

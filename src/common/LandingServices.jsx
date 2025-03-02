@@ -1,5 +1,5 @@
 import React from 'react';
-import { Leaf, Droplets, Sun, Recycle, Wind, Zap } from 'lucide-react';
+import { MapPin,Home , MessageCircle,CalendarCheck, FolderHeart , Handshake  } from 'lucide-react';
 
 const ServiceCard = ({ title, description, icon }) => {
   return (
@@ -16,34 +16,34 @@ const ServiceCard = ({ title, description, icon }) => {
 const LandingServices = () => {
   const services = [
     {
-      title: "Sustainable Energy Solutions",
-      description: "Custom renewable energy systems designed to reduce carbon footprint and energy costs.",
-      icon: <Sun size={40} />
+      title: "Find Nearby Camps",
+      description: "Easily locate blood donation, organ donation, and vaccination camps near you with real-time navigation support.",
+      icon: <MapPin size={40} />
     },
     {
-      title: "Water Conservation",
-      description: "Innovative water management systems that minimize waste and maximize efficiency.",
-      icon: <Droplets size={40} />
+      title: "Chat with Organizers",
+      description: "Connect directly with camp organizers to ask questions and get real-time updates about upcoming camps.",
+      icon: <MessageCircle size={40} />
     },
     {
-      title: "Green Building Design",
-      description: "Eco-friendly architectural solutions that prioritize sustainability without compromising aesthetics.",
-      icon: <Leaf size={40} />
+      title: "Home Service Camps",
+      description: "Get medical services like blood donation and health checkups at your doorstep with our home service camp options.",
+      icon: <Home size={40} />
     },
     {
-      title: "Waste Management",
-      description: "Comprehensive waste reduction strategies and recycling programs for businesses.",
-      icon: <Recycle size={40} />
+      title: "Slot Booking",
+      description: "Easily book a time slot for blood donation, health checkups, and other camp services at your convenience.",
+      icon: <CalendarCheck size={40} />
     },
     {
-      title: "Clean Air Technology",
-      description: "Advanced filtration systems that improve indoor air quality and reduce pollutants.",
-      icon: <Wind size={40} />
+      title: "Health Records Management",
+      description: "Securely store and access your past donation records, vaccination history, and medical checkup details in one place.",
+      icon: <FolderHeart  size={40} />
     },
     {
-      title: "Energy Efficiency Audits",
-      description: "Detailed assessments to identify energy-saving opportunities in your home or business.",
-      icon: <Zap size={40} />
+      title: "Volunteer & Support",
+      description: "Join as a volunteer to help organize camps, assist participants, and contribute to healthcare initiatives in your community.",
+      icon: <Handshake  size={40} />
     }
   ];
 
